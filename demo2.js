@@ -141,17 +141,17 @@
 
 // FUNCTIONS
 
-//decleration
-// function add(x, y) {
-//   console.log(x + y);
-// }
+// declerationx
+function add(x, y) {
+  console.log(x + y);
+}
 
 //expression
 // var add = function (x, y) {
 //   console.log(x + y);
 // };
 
-// add(2, 4);
+add(2, 4);
 // add(3, 4);
 
 // console.log(typeof add);
@@ -263,3 +263,19 @@
 // var a = ['Wind', 'Rain', 'Fire'];
 // a.join();    // 'Wind,Rain,Fire'
 // a.join('-'); // 'Wind-Rain-Fire'
+
+// Practice Arrays
+// console.log()
+
+// Practice functions
+// function subract(x, y) {
+//   console.log(x - y);
+// }
+
+// subract(10, 5);
+
+// function concat(word1, word2) {
+//   console.log(word1, word2);
+// }
+
+// concat("Ewan", "Codes");
