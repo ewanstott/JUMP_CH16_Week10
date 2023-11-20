@@ -109,7 +109,7 @@ array10 = [
 // console.log(array10.some((str) => str.length > 20));
 //    Filter
 
-var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // var evenNums = nums.filter(function (num, i, arr) {
 //   return num % 2 == 0;
@@ -127,16 +127,81 @@ var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 //    findIndex - Same as find, except it returns the index, not the item
 
-console.log(
-  nums.findIndex(function (num, i, arr) {
-    return num === 2;
-  })
-);
+// console.log(
+//   nums.findIndex(function (num, i, arr) {
+//     return num === 2;
+//   })
+// );
 
 //    Sort
-//    Map
+
+// console.log(array10.sort());
+
+//    Map - used to create a new array by applying a provided function to each element of the original array
+
+// console.log(nums.map((num) => num * 2));
+
 // 8. Create an IF statement which checks if a variable matches another variable, if so it should console log a message
+
+var1 = "36";
+var2 = "42";
+
+// if (var1 === var2) {
+//   console.log("Variable 1 is equal to Variable 2");
+// } else {
+//   console.log("Variable 1 is not equal to Variable 2");
+// }
+
 // 9. Extend the IF statement to have an ELSE IF to show an alternative message if the first comparison fails
+
+// if (var1 > var2) {
+//   console.log("Variable 1 is greater than Variable 2");
+// } else if (var1 < var2) {
+//   console.log("Variable 1 is less than Variable 2");
+// } else {
+//   console.log("Variable 1 is equal to Variable 2");
+// }
+
 // 10. Extend one of the IF statements to check if two things are true, if so show a message
+
+// if (var1 > 35 && var2 < 55) {
+//   console.log("Both conditions are true");
+// } else {
+//   console.log("At least one condition is false");
+// }
+
 // 11. Convert the IF statement to a Switch statement
+
+// var speed = 300;
+// switch (speed) {
+//   case 300:
+//     console.log("You are quicker than required");
+//     break;
+
+//   case 200:
+//     console.log("You are quick enough");
+//     break;
+
+//   case 100:
+//     console.log("You are too slow");
+//     break;
+// }
+
 // 12. Create a FOR loop that shows a message 10 times
+
+var num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < num.length; i++) {
+//   const element = num[i];
+//   console.log(element);
+// }
+
+for (var i = 0; i < num.length; i++) {
+  console.log(num[i]);
+}
+
+var message = "message x 10";
+
+for (var i = 0; i < 10; i++) {
+  console.log(message);
+}
